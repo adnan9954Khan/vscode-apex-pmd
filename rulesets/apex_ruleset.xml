@@ -9,6 +9,8 @@
          <property name="minimum" value="1000" />
       </properties>
    </rule>
+	<rule ref="category/apex/documentation.xml/ApexDoc" />
+
    <rule ref="category/apex/design.xml/ExcessiveParameterList" message="Avoid long parameter lists">
       <priority>3</priority>
       <properties>
